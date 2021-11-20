@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-    background: #A4B4C4;
+    background: #C2EDEC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +59,10 @@ export const HeroP = styled.div`
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
+`;
+
+export const HeroImg = styled.div`
+    position: absolute;
+    heigth: 20vw;
+    z-index: -1;
 `;
