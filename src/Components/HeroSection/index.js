@@ -3,7 +3,7 @@ import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP, HeroImg } from './He
 
 const HeroSection = () => {
     return (
-        <HeroContainer>
+        <HeroContainer id='hero'>
             <HeroImg>
                     <img src="/HeroWaterMark.svg" alt="Vector cartoon man in shower" className="HeroImage" />
                 </HeroImg>

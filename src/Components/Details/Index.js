@@ -12,26 +12,7 @@ import ConsumptionMonth from "./ConsumptionMonth";
 import { DetailsLandingContainer, GraphContainer } from "./DetailsElements";
 
 
-const DetailsLandingContainer = styled.section`
-    background-color: #a8d6f7;
-	height: 100vh;
-	background-size: cover;
-	display: flex !important;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-`;
 
-
-const GraphContainer = styled.section`
-    background-color: #f5bacc;
-	height: 100vh;
-	background-size: cover;
-	display: flex !important;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-`;
 
 function Details(){
 
@@ -74,6 +55,7 @@ function Details(){
         
     return(
         <>
+            <DetailsLandingContainer>
             <h1>In-depth Consumption details</h1>
 
             {/* These functions show different variables depending on which is clicked */}
@@ -82,9 +64,9 @@ function Details(){
             <button onClick={toggleFlowTime}>Flow Time</button>
             <button onClick={toggleConsumption}>Water Consumption</button>
 
+            </DetailsLandingContainer>
 
-
-
+            <GraphContainer>
             {/* Power Consumption graphs conditional rendering */}  
             
             { powerConsumption ?
@@ -128,7 +110,7 @@ function Details(){
 
             : "" }
 
-         
+            </GraphContainer>
 
             
         </>

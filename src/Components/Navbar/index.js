@@ -15,13 +15,13 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='hero'>Landing</NavLinks>
+                            <NavLinks to='hero' smooth={true} duration={500}>Landing</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='temperature'>Temperature</NavLinks>
+                            <NavLinks to='temperature' smooth={true} duration={500}>Temperature</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='eco'>Eco</NavLinks>
+                            <NavLinks to='eco' smooth={true} duration={500}>Eco</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='shower'>Shower Time</NavLinks>

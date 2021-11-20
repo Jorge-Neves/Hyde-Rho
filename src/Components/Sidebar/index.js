@@ -8,10 +8,10 @@ const Sidebar = ({isOpen, toggle}) => {
                 <CloseIcon />
             </Icon>
             <SidebarWrapper>
-                <SidebarLink to='about' onClick={toggle}>
+                <SidebarLink to='hero' smooth={true} duration={500} onClick={toggle}>
                     About
                 </SidebarLink>
-                <SidebarLink to='details' onClick={toggle}>
+                <SidebarLink to='temperature' onClick={toggle}>
                     Details
                 </SidebarLink>
                 <SidebarLink to='about' onClick={toggle}>

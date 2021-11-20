@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
 
-const Home = () => {
+const Details = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
 
     const [isOpen, setIsOpen] = useState(false);
@@ -53,5 +53,5 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Details;
 ;

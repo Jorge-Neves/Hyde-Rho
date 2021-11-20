@@ -3,7 +3,7 @@ import { TemperatureContainer, TemperatureImage } from './TemperatureElements';
 
 const Temperature = () => {
     return (
-        <TemperatureContainer>
+        <TemperatureContainer id='temperature'>
             <TemperatureImage>
                 <img src="/TempWaterMark.svg" alt="A shower setup" className="TemperatureImg" />
             </TemperatureImage>
