@@ -26,7 +26,7 @@ const Nav = styled.nav`
     
 `;
 
-function NavBar() {
+function Nav2() {
 
         return(
             <Nav>
@@ -53,4 +53,4 @@ function NavBar() {
 
 
 
-export default NavBar;
+export default Nav2;
