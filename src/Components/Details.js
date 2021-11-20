@@ -4,15 +4,21 @@ import styled from "styled-components";
 
 function Details(){
 
-        /* useStates for conditional rendering with the buttons at the very top*/
-        /*This will allow each button to render its respective variable*/
+        /* useStates for conditional rendering with the buttons at the very top */
+        /* This will allow each button to render its respective variable */
 
-        const [powerConsumptionVar, setPowerConsumptionVar] = useState(true);
-        const [flowTimeVar, setFlowTimeVar] = useState(false);
-        const [consumptionVar, setConsumptionVar] = useState(false);
+        const [powerConsumption, setPowerConsumptionVar] = useState(true);
+        const [flowTime, setFlowTimeVar] = useState(false);
+        const [consumption, setConsumptionVar] = useState(false);
+
+        /* useStates for conditional rendering with the slider bellow the buttons */
+        /* This will allow each slider value to change the time period for the graphs */
+        const [threeDays, setThreeDays] = useState(true);
+        const [week, setWeek] = useState(false);
+        const [month, setMonth] = useState(false);
 
 
-        /* functions that are called and change the useStates depending on which button is clicked */
+        /* functions that are called and change the useStates for each variable depending on which button is clicked */
         const togglePower = () => {
             setPowerConsumptionVar(true);
             setFlowTimeVar(false);
@@ -35,6 +41,52 @@ function Details(){
           setConsumptionVar(true);
           
         }
+
+         /* functions that are called and change the useStates for each time span depending on which button is clicked */
+         const togglePower = () => {
+            setThreeDays(true);
+            setWeek(false);
+            setMonth(false);
+         
+        
+        }
+        
+        const toggleFlowTime = () => {
+          setThreeDays(false);
+          setWeek(true);
+          setMonth(false);
+    
+        }
+        
+        
+        const toggleConsumption = () => {
+          setThreeDays(false);
+          setWeek(false);
+          setMonth(true);
+          
+        }
+
+
+        // function toggleVariables(variable) {
+        //     if(variable === powerConsumption) {
+        //         setPowerConsumptionVar(true);
+        //         setFlowTimeVar(false);
+        //         setConsumptionVar(false);
+        //     }
+
+        //     if(variable === flowTime) {
+        //         setPowerConsumptionVar(false);
+        //         setFlowTimeVar(true);
+        //         setConsumptionVar(false);
+        //     }
+
+        //     if(variable === consumption) {
+        //         setPowerConsumptionVar(false);
+        //         setFlowTimeVar(false);
+        //         setConsumptionVar(true);
+                
+        //     }
+        // }
         
 
        
@@ -43,9 +95,100 @@ function Details(){
         <>
             <h1>In-depth Consumption details</h1>
 
-            <button onClick={togglePower}>Weight</button>
-            <button onClick={toggleFlowTime}>Temperature</button>
-            <button onClick={toggleConsumption}>Pulse Rate</button>
+            <button onClick={togglePower}>Power Consumption</button>
+            <button onClick={toggleFlowTime}>Flow Time</button>
+            <button onClick={toggleConsumption}>Water Consumption</button>
+
+
+            {/* test */}    
+            <button onClick={toggleVariables(powerConsumption)}>Power Consumption</button>
+            <button onClick={toggleVariables(flowTime)}>Flow Time</button>
+            <button onClick={toggleVariables(consumption)}>Water Consumption</button>
+
+
+            <button onClick={toggle}>Power Consumption</button>
+            <button onClick={toggleFlowTime}>Flow Time</button>
+            <button onClick={toggleConsumption}>Water Consumption</button>
+
+
+            {/* Power Consumption graphs conditional rendering */}  
+
+            { powerConsumption && threeDays ?
+                    <div>
+                        <h1>Power Consumption past 3 days</h1>
+                    </div>
+
+
+            : "" }
+
+            { powerConsumption && week ?
+                    <div>
+                        <h1>Power Consumption past week</h1>
+                    </div>
+
+
+            : "" }
+
+            { powerConsumption && month ?
+                    <div>
+                        <h1>Power Consumption past month</h1>
+                    </div>
+
+
+            : "" }
+
+             {/* Flow Time graphs conditional rendering */}  
+
+            { flowTime && threeDays ?
+                    <div>
+                        <h1>Flow Time past 3 days</h1>
+                    </div>
+
+
+            : "" }
+
+            { flowTime && week ?
+                    <div>
+                        <h1>Flow Time past week</h1>
+                    </div>
+
+
+            : "" }
+
+            { flowTime && month ?
+                    <div>
+                        <h1>Flow Time past month</h1>
+                    </div>
+
+
+            : "" }
+
+             {/* Water Consumption graphs conditional rendering */}  
+
+            { consumption && threeDays ?
+                    <div>
+                        <h1>Consumption past 3 days</h1>
+                    </div>
+
+
+            : "" }
+
+            { consumption && week ?
+                    <div>
+                        <h1>Consumption past week</h1>
+                    </div>
+
+
+            : "" }
+
+            { consumption && month ?
+                    <div>
+                        <h1>Consumption past month</h1>
+                    </div>
+
+
+            : "" }
+
             
         </>
         
