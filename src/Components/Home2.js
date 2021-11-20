@@ -52,12 +52,13 @@ const UserShowerTimeContainer = styled.section`
 	justify-content: center;
 `;
 
-function Home(){
+function Home2(){
     return(
         <>
             <h1>Home Page</h1>
             <LandingContainer>
                 <h1>Welcome user</h1>
+				<h1>Help your flower grow</h1>
             </LandingContainer>
             <TemperatureSection>
                 <h1>Your perfect shower temperature is ###</h1>
@@ -65,9 +66,6 @@ function Home(){
             <EcoTipsContainer>
                 <h1>Want to know more about how to help the enviroment?</h1>
             </EcoTipsContainer>
-            <GameficationSection>
-                <h1>Help your flower grow</h1>
-            </GameficationSection>
             <UserShowerTimeContainer>
                 <h1>Your preferred shower time is from ### to ###</h1>
             </UserShowerTimeContainer>
@@ -76,4 +74,4 @@ function Home(){
     )
 }
 
-export default Home;
+export default Home2;
