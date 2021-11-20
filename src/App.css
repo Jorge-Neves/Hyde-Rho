@@ -48,3 +48,40 @@
 .thumbs-wrapper {
   display: none;
 }
+
+.control-dots li:nth-child(1) {
+  height: 50px !important;
+  width: 50px !important;
+  background: url('./celsius.png') white no-repeat !important;
+  background-position: center !important;
+  background-size: 80% !important;
+  
+}
+
+.control-dots li:nth-child(1):hover {
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
+
+.control-dots li:nth-child(2) {
+  height: 50px !important;
+  width: 50px !important;
+  background: url('./shower.png') white no-repeat !important;
+  background-position: center !important;
+  background-size: 80% !important;
+}
+
+.control-dots li:nth-child(2):hover {
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
+
+.control-dots li:nth-child(3) {
+  height: 50px !important;
+  width: 50px !important
+}
+
+.control-dots li:nth-child(3):hover {
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
