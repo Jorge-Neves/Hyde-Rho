@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
-
+import Eco from '../Components/EcoSection';
 
 const Home = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -31,7 +31,7 @@ const Home = () => {
         };
       }, [handleWindowResize]);
 
-    return windowSize <= 768 ? (
+    return windowSize <= 940 ? (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
@@ -43,6 +43,9 @@ const Home = () => {
                 <div>
                     <Temperature />
                 </div>
+                <div>
+                    <Eco />
+                </div>
             </Carousel>
         </>
     ) : (
@@ -51,6 +54,7 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <Temperature />
+            <Eco />
         </>
     )
 }

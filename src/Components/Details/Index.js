@@ -9,7 +9,7 @@ import PowerConsumptionWeek from "./PowerConsumptionThree";
 import PowerConsumptionMonth from "./PowerConsumptionMonth";
 import ConsumptionWeek from "./ConsumptionWeek";
 import ConsumptionMonth from "./ConsumptionMonth";
-
+import { DetailsLandingContainer, GraphContainer } from "./DetailsElements";
 
 
 const DetailsLandingContainer = styled.section`

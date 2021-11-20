@@ -63,6 +63,9 @@ export const HeroP = styled.div`
 
 export const HeroImg = styled.div`
     position: absolute;
-    heigth: 20vw;
     z-index: -1;
+    width: 99vw;
+    .HeroImage {
+        height: 80vh;
+    }
 `;

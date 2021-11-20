@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroImg>
-                    <img src="/HeroWaterMark.svg" alt="Vector cartoon man in shower" />
+                    <img src="/HeroWaterMark.svg" alt="Vector cartoon man in shower" className="HeroImage" />
                 </HeroImg>
             <HeroBg>
             </HeroBg>
