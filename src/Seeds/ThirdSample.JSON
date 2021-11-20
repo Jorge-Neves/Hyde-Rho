@@ -1,0 +1,205 @@
+{
+    "houses": [
+        {
+            "apartments": [
+                {
+                    "people": "2",
+                    "Hydractiva_shower": {
+                        "measurements": [
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-03T16:20:57"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-03T20:10:56"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-05T03:00:00"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-06T14:20:37"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-07T15:30:53"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-08T19:30:34"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-10T19:50:25"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-11T02:40:45"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-11T17:20:10"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-12T23:20:30"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-13T13:30:13"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-14T21:30:04"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-15T12:20:10"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-15T21:50:09"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-18T15:00:06"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-19T04:10:02"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-20T21:10:45"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-21T07:00:23"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-22T12:40:16"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-25T13:50:06"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-27T03:50:18"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-27T18:50:31"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-28T07:10:53"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-29T11:40:02"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-30T08:20:26"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-30T15:00:53"
+                                                    },
+                                                    {
+                                                        "Consumption": "15",
+                                                        "Temp": "60",
+                                                        "FlowTime": "10800",
+                                                        "Power_Consumption": "0.94499993",
+                                                        "TimeStamp": "2020-12-31T07:20:39"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+                                                      

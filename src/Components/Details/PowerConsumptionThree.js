@@ -14,7 +14,7 @@ import{
 
 
 
-function PowerConsumptionThree(){
+function PowerConsumptionWeek(){
 
    const data = [{
         date: '2020-12-29',
@@ -34,7 +34,7 @@ function PowerConsumptionThree(){
         
     return(
         <>
-            <h1>3 Day Power Consumption Graphs</h1>
+            <h1> Past 3 Day Power Consumption Graph</h1>
 
             <ResponsiveContainer width="100%" height={400}>
                 <LineChart data={data}>
@@ -52,4 +52,4 @@ function PowerConsumptionThree(){
         )
 }
 
-export default PowerConsumptionThree;
+export default PowerConsumptionWeek;

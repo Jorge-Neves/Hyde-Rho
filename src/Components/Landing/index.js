@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useNavigate } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 
 const LandingPageContainer = styled.section`
@@ -20,7 +21,8 @@ function Landing(){
 
         const [buttonPressed, setButtonPressed] = useState(false);
         const [image, setImage] = useState("");
-      
+       
+        /* This react hook allows smooth redirections */
         let navigate = useNavigate();
 
 
@@ -30,8 +32,8 @@ function Landing(){
             setButtonPressed(true);
             setImage("/placeholder.gif")
             setTimeout(() => {
-                navigate("/home");
-            }, 2000);
+                navigate("/");
+            }, 3500);
             }
          
         

@@ -14,7 +14,7 @@ import{
 
 
 
-function FlowTimeThree(){
+function FlowTimeMonth(){
 
    const data = [{
         date: '2020-12-29',
@@ -22,11 +22,11 @@ function FlowTimeThree(){
       },
       {
         date: '2020-12-30',
-        powerc: 9,
+        powerc: 5,
       },
       {
         date: '2020-12-31',
-        powerc: 9,
+        powerc: 6,
       },
     ];
 
@@ -34,7 +34,7 @@ function FlowTimeThree(){
         
     return(
         <>
-            <h1>3 Day Flow Time Graphs</h1>
+            <h1>Past 3 days Flow Time Graph</h1>
 
             <ResponsiveContainer width="100%" height={400}>
                 <LineChart data={data}>
@@ -52,4 +52,4 @@ function FlowTimeThree(){
         )
 }
 
-export default FlowTimeThree;
+export default FlowTimeMonth;
