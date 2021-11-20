@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-status {
+  display: none;
+}
+
+.control-dots {
+  position: fixed !important;
+}
+
+.thumbs-wrapper {
+  display: none;
+}
