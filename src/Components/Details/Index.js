@@ -7,6 +7,10 @@ import FlowTimeWeek from "./FlowTimeWeek";
 import FlowTimeMonth from "./FlowTimeThree";
 import PowerConsumptionWeek from "./PowerConsumptionThree";
 import PowerConsumptionMonth from "./PowerConsumptionMonth";
+import ConsumptionWeek from "./ConsumptionWeek";
+import ConsumptionMonth from "./ConsumptionMonth";
+
+
 
 const DetailsLandingContainer = styled.section`
     background-color: #a8d6f7;
@@ -116,8 +120,9 @@ function Details(){
                     <div>
                         <h1>Water Consumption</h1>
                         <ConsumptionThree />
-                        <PowerConsumptionWeek />
-                        <PowerConsumptionMonth />
+                        <ConsumptionWeek />
+                        <ConsumptionMonth />
+                        
                     </div>
 
 
