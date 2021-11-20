@@ -18,8 +18,6 @@ const Home = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
-    const [isMobile, setIsMobile] = useState(false);
-
     const toggle = () => {
         setIsOpen(!isOpen);
     };
