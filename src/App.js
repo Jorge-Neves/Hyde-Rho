@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import PowerConsumptionThree from './Components/Details/PowerConsumptionThree';
+import  { Routes, Route } from "react-router";
 
 function App() {
   return (
     <div className="App">
-       <PowerConsumptionThree />
+        <Routes>
+          <Route exact path="/landing" element={<Landing />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/details" element={<Details />} />
+          <Route exact path="/about" element={<About />} />
+        </Routes>      
     </div>
   );
 }
