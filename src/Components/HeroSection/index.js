@@ -3,7 +3,7 @@ import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP } from './HeroElement
 
 const HeroSection = () => {
     return (
-        <HeroContainer>
+        <HeroContainer id='hero'>
             <HeroBg>
             </HeroBg>
             <HeroContent>

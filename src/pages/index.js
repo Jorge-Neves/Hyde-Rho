@@ -37,12 +37,8 @@ const Home = () => {
             <Navbar toggle={toggle} />
 
             <Carousel>
-                <div>
-                    <HeroSection />
-                </div>
-                <div>
-                    <Temperature />
-                </div>
+                    <HeroSection id='hero'/>
+                    <Temperature id='temperature'/>
             </Carousel>
         </>
     ) : (
