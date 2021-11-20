@@ -16,17 +16,53 @@ import{
 
 function ConsumptionThree(){
 
+
+    /* Values for the 3 days Graph */
+
    const data = [{
         date: '2020-12-29',
         powerc: 10,
       },
       {
         date: '2020-12-30',
-        powerc: 10,
+        powerc: 12,
       },
       {
         date: '2020-12-31',
+        powerc: 13,
+      },
+    ];
+
+    /* Values for the Week Graph */
+
+    const dataWeek = [{
+        date: '2020-12-29',
         powerc: 10,
+      },
+      {
+        date: '2020-12-30',
+        powerc: 12,
+      },
+      {
+        date: '2020-12-31',
+        powerc: 13,
+      },
+    ];
+
+
+    /* Values for the Month Graph */
+
+    const dataMonth = [{
+        date: '2020-12-29',
+        powerc: 10,
+      },
+      {
+        date: '2020-12-30',
+        powerc: 12,
+      },
+      {
+        date: '2020-12-31',
+        powerc: 13,
       },
     ];
 

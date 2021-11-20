@@ -22,11 +22,11 @@ function FlowTimeThree(){
       },
       {
         date: '2020-12-30',
-        powerc: 9,
+        powerc: 5,
       },
       {
         date: '2020-12-31',
-        powerc: 9,
+        powerc: 6,
       },
     ];
 
