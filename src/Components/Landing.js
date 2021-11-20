@@ -56,4 +56,4 @@ function Landing(){
         )
 }
 
-export default Details;
+export default Landing;

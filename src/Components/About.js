@@ -14,9 +14,9 @@ const AboutContainer = styled.section`
 
 function About(){
     return(
-        <AboutConatiner>
+        <AboutContainer>
             <h1>Meet the Team</h1>
-        </AboutConatiner>
+        </AboutContainer>
     )
 }
 
