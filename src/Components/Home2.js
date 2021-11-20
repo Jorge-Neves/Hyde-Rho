@@ -95,30 +95,26 @@ const UserShowerTimeContainer = styled.section`
 	}
 `;
 
-function Home(){
+function Home2(){
     return(
-        <> 
-            <DeviceViewContainer>
-                <h1>Home Page</h1>
-                <LandingContainer>
-                    <h1>Welcome user</h1>
-                </LandingContainer>
-                <TemperatureSection>
-                    <h1>Your perfect shower temperature is ###</h1>
-                </TemperatureSection>
-                <EcoTipsContainer>
-                    <h1>Want to know more about how to help the enviroment?</h1>
-                </EcoTipsContainer>
-                <GameficationSection>
-                    <h1>Help your flower grow</h1>
-                </GameficationSection>
-                <UserShowerTimeContainer>
-                    <h1>Your preferred shower time is from ### to ###</h1>
-                </UserShowerTimeContainer>
-            </DeviceViewContainer>
+        <>
+            <h1>Home Page</h1>
+            <LandingContainer>
+                <h1>Welcome user</h1>
+				<h1>Help your flower grow</h1>
+            </LandingContainer>
+            <TemperatureSection>
+                <h1>Your perfect shower temperature is ###</h1>
+            </TemperatureSection>
+            <EcoTipsContainer>
+                <h1>Want to know more about how to help the enviroment?</h1>
+            </EcoTipsContainer>
+            <UserShowerTimeContainer>
+                <h1>Your preferred shower time is from ### to ###</h1>
+            </UserShowerTimeContainer>
         </>
 
     )
 }
 
-export default Home;
+export default Home2;
