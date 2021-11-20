@@ -44,3 +44,7 @@
 .control-dots {
   position: fixed !important;
 }
+
+.thumbs-wrapper {
+  display: none;
+}

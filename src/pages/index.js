@@ -5,12 +5,7 @@ import Sidebar from '../Components/Sidebar';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
-
-    const Device = styled.div`
-
-
-
-    `;
+import Temperature from '../Components/TemperatureSection';
 
 
 const Home = () => {
@@ -46,7 +41,7 @@ const Home = () => {
                     <HeroSection />
                 </div>
                 <div>
-                    <HeroSection />
+                    <Temperature />
                 </div>
             </Carousel>
         </>
@@ -55,6 +50,7 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <HeroSection />
+            <Temperature />
         </>
     )
 }
