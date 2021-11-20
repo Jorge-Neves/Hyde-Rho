@@ -24,7 +24,7 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     height: 80px;
     z-index: 1;
-    width: 100%auto;
+    width: 100%;
     padding: 0 24px;
     max-width: 1100px;
 `;
@@ -52,6 +52,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+        color: white;
     }
 `;
 
