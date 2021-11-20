@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/NavBar';
+import Navbar from './Components/Navbar/index';
 import { BrowserRouter as Router } from 'react-router-dom';
 import  { Routes, Route } from "react-router";
 
@@ -19,7 +19,7 @@ function App() {
         
           <Routes>
               <Route exact path="/landing" element={<Home />} />
-              <Route exact path="/landing" element={<Landing />} />
+              <Route exact path="/landingani" element={<Landing />} />
 				      <Route exact path="/sources" element={<Sources />} />
               <Route exact path="/details" element={<Details />} />
 				      <Route exact path="/about" element={<About />} />

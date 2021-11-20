@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import HeroSection from '../Components/HeroSection';
-import Navbar from '../Components/Navbar';
+import Navbar from '../Components/Navbar/index';
 import Sidebar from '../Components/Sidebar';
 
 const Home = () => {
