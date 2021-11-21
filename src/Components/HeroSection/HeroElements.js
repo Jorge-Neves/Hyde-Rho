@@ -91,6 +91,17 @@ export const HeroP = styled.div`
     max-width: 600px;
     margin-bottom: 10px;
 
+    .NavLinksHero {
+        text-decoration: none!important;
+        color: #313246;
+    }
+
+    a{
+        text-decoration: none!important;
+        color: #313246;
+    }
+    
+
     @media screen and (max-width: 768px) {
         font-size: 24px;
     }

@@ -16,19 +16,35 @@ import { GraphContainer } from "./DetailsElements";
 
 function FlowTimeWeek(){
 
-   const data = [{
-        date: '2020-12-29',
-        powerc: 9,
-      },
-      {
-        date: '2020-12-30',
-        powerc: 5,
-      },
-      {
-        date: '2020-12-31',
-        powerc: 6,
-      },
-    ];
+  const data = [{
+    date: 'Day-1',
+    powerc: 0.4,
+  },
+  {
+    date: 'Day-2',
+    powerc: 2.3,
+  },
+  {
+    date: 'Day-3',
+    powerc: 1.5,
+  },
+  {
+    date: 'Day-4',
+    powerc: 1.0,
+  },
+  {
+    date: 'Day-5',
+    powerc: 0.9,
+  },
+  {
+    date: 'Day-6',
+    powerc: 1.4,
+  },
+  {
+    date: 'Day-7',
+    powerc: 0.8,
+  },
+];
 
 
         

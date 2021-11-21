@@ -2,6 +2,7 @@ import React from 'react';
 import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP, HeroImg, HeroCard, HeroRow, HeroRowTitle } from './HeroElements';
 import Button from "react-bootstrap/Button";
 import Fade from 'react-reveal/Fade';
+import { NavLink } from "react-router-dom"
 
 const HeroSection = () => {
     return (
@@ -21,7 +22,9 @@ const HeroSection = () => {
                         <HeroP>
                             Learn more about your water usage
                         </HeroP>
-                        <Button><a href="https://info.oras.com/en/oras-hydractiva-digital" target="_blank" className="buttonLink">Graphs</a></Button>
+                        <Button><NavLink to="/details" className="NavLinksHero">
+                            Details
+                        </NavLink></Button>
                     </HeroCard>
                     <HeroCard>
                         <HeroP>

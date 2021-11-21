@@ -52,9 +52,9 @@
 .control-dots li:nth-child(1) {
   height: 50px !important;
   width: 50px !important;
-  background: url('./celsius.png') white no-repeat !important;
+  /* background: url('./celsius.png') white no-repeat !important;
   background-position: center !important;
-  background-size: 80% !important;
+  background-size: 80% !important; */
   
 }
 
@@ -66,9 +66,9 @@
 .control-dots li:nth-child(2) {
   height: 50px !important;
   width: 50px !important;
-  background: url('./shower.png') white no-repeat !important;
+  /* background: url('./shower.png') white no-repeat !important;
   background-position: center !important;
-  background-size: 80% !important;
+  background-size: 80% !important; */
 }
 
 .control-dots li:nth-child(2):hover {
@@ -79,9 +79,9 @@
 .control-dots li:nth-child(3) {
   height: 50px !important;
   width: 50px !important;
-  background: url('./Recycle.png') white no-repeat !important;
+  /* background: url('./Recycle.png') white no-repeat !important;
   background-position: center !important;
-  background-size: 80% !important;
+  background-size: 80% !important; */
 }
 
 .control-dots li:nth-child(3):hover {
@@ -89,6 +89,6 @@
   transition: 0.3s ease-in-out;
 }
 
-.control-arrow {
-  position: fixed !important;
+a{
+  text-decoration: none!important;
 }

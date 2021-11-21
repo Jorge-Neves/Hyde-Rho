@@ -8,8 +8,6 @@ import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
 import About from '../Components/About';
-import Team from "../Components/TeamSection"
-import Challenge from '../Components/ChallengeSection';
 
 const Aboutus = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -41,8 +39,6 @@ const Aboutus = () => {
 
             <Carousel>
                     <About id="about"/>
-                    <Team id='team'/>
-                    <Challenge id="challenge" />
             </Carousel>
         </>
     ) : (
@@ -50,8 +46,6 @@ const Aboutus = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <About id="about"/>
-            <Team id='team'/>
-            <Challenge id="challenge" />
         </>
     )
 }

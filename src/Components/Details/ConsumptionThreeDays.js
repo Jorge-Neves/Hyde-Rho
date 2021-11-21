@@ -20,16 +20,16 @@ function ConsumptionThree(){
     /* Values for the 3 days Graph */
 
    const data = [{
-        date: '2020-12-29',
-        powerc: 10,
+        date: 'Day 1',
+        WaterConsumed: 11.6,
       },
       {
-        date: '2020-12-30',
-        powerc: 12,
+        date: 'Day 2',
+        WaterConsumed: 56.7,
       },
       {
-        date: '2020-12-31',
-        powerc: 13,
+        date: 'Day 3',
+        WaterConsumed: 36.1,
       },
     ];
 

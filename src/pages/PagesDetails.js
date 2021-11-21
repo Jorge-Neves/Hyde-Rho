@@ -48,15 +48,16 @@ const Details = () => {
 
             <Carousel>
                     <DetailsComponent id='details'/>
+                    <PowerConsumptionThree />
+                    <PowerConsumptionWeek />
+                    <PowerConsumptionMonth />
                     <ConsumptionThree />
                     <ConsumptionWeek />
                     <ConsumptionMonth />
                     <FlowTimeThree />
                     <FlowTimeWeek />
                     <FlowTimeMonth />
-                    <PowerConsumptionThree />
-                    <PowerConsumptionWeek />
-                    <PowerConsumptionMonth />
+                   
                     
             </Carousel>
         </>
@@ -65,15 +66,16 @@ const Details = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <DetailsComponent id='details'/>
+                    <PowerConsumptionThree />
+                    <PowerConsumptionWeek />
+                    <PowerConsumptionMonth />
                     <ConsumptionThree />
                     <ConsumptionWeek />
                     <ConsumptionMonth />
                     <FlowTimeThree />
                     <FlowTimeWeek />
                     <FlowTimeMonth />
-                    <PowerConsumptionThree />
-                    <PowerConsumptionWeek />
-                    <PowerConsumptionMonth />
+                    
         </>
     )
 }

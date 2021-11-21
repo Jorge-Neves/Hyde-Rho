@@ -37,7 +37,7 @@ function Landing(){
             setButtonPressed(true);
             setImage("/placeholder.gif")
             setTimeout(() => {
-                navigate("/");
+                navigate("/home");
             }, 3500);
             }
          

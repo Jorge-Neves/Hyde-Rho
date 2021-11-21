@@ -18,7 +18,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to='/about' onClick={toggle}>
                     About
                 </SidebarLink> */}
-                <NavLink to="/" className="NavLinks">
+                <NavLink to="/home" className="NavLinks">
                             <h1 >Home</h1>
                         </NavLink>
                         <NavLink to="/details" className="NavLinks">

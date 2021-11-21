@@ -19,19 +19,35 @@ function ConsumptionWeek(){
 
     /* Values for the 3 days Graph */
 
-   const data = [{
-        date: '2020-12-29',
-        powerc: 10,
-      },
-      {
-        date: '2020-12-30',
-        powerc: 12,
-      },
-      {
-        date: '2020-12-31',
-        powerc: 13,
-      },
-    ];
+    const data = [{
+      date: 'Day-1',
+      powerc: 0.4,
+    },
+    {
+      date: 'Day-2',
+      powerc: 2.3,
+    },
+    {
+      date: 'Day-3',
+      powerc: 1.5,
+    },
+    {
+      date: 'Day-4',
+      powerc: 1.0,
+    },
+    {
+      date: 'Day-5',
+      powerc: 0.9,
+    },
+    {
+      date: 'Day-6',
+      powerc: 1.4,
+    },
+    {
+      date: 'Day-7',
+      powerc: 0.8,
+    },
+  ];
 
  
 

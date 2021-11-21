@@ -16,26 +16,26 @@ import { GraphContainer } from "./DetailsElements";
 
 function PowerConsumptionThree(){
 
-   const data = [{
-        date: '2020-12-29',
-        powerc: 3,
-      },
-      {
-        date: '2020-12-30',
-        powerc: 6,
-      },
-      {
-        date: '2020-12-31',
-        powerc: 4,
-      },
-    ];
+  const data = [{
+    date: 'Day-1',
+    powerc: 0.4,
+  },
+  {
+    date: 'Day-2',
+    powerc: 2.3,
+  },
+  {
+    date: 'Day-3',
+    powerc: 1.5,
+  },
+];
 
 
         
     return(
         <>
         <GraphContainer>
-            <h1>Past Week Power Consumption Graph</h1>
+            <h1>Past 3 Days Power Consumption Graph</h1>
 
             <ResponsiveContainer width={500} height="50%">
                 <LineChart data={data}>
