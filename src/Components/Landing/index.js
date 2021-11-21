@@ -11,6 +11,11 @@ const LandingPageContainer = styled.section`
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+    z-index: -1;
+
+    .PrePress{
+        z-index: 0;
+    }
 `;
 
 
@@ -48,9 +53,19 @@ function Landing(){
     return(
         <>
            <LandingPageContainer>
-                <h1>Landing Page</h1>
-                <button onClick={toggleButton}> Enter </button>
-                <img className="LandingImage" src={image} />
+           { buttonPressed ?
+                    <img src={setImage} className="LandingImage" src={image} />
+                    
+
+            : 
+            
+            <div>
+              
+              <img src="/Landing2.png" onClick={toggleButton} className="PrePress" /> 
+            </div>
+            }
+                
+                
            </LandingPageContainer>
         
         </>

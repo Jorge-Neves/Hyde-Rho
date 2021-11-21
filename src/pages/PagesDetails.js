@@ -7,6 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
+import DetailsComponent from '../Components/Details/index'
 
 const Details = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -37,7 +38,7 @@ const Details = () => {
             <Navbar toggle={toggle} />
 
             <Carousel>
-                    <HeroSection id='hero'/>
+                    <DetailsComponent id='details'/>
                     <Temperature id='temperature'/>
                     <Eco id="eco" />
             </Carousel>
@@ -46,7 +47,7 @@ const Details = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <HeroSection />
+            <DetailsComponent />
             <Temperature />
             <Eco />
         </>

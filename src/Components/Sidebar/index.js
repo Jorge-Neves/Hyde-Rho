@@ -1,6 +1,7 @@
 import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarLink } from './SidebarElements';
 
+
 const Sidebar = ({isOpen, toggle}) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -8,13 +9,13 @@ const Sidebar = ({isOpen, toggle}) => {
                 <CloseIcon />
             </Icon>
             <SidebarWrapper>
-                <SidebarLink to='hero' smooth={true} duration={500} onClick={toggle}>
-                    About
+                <SidebarLink to='/' smooth={true} duration={500} onClick={toggle}>
+                    Home
                 </SidebarLink>
-                <SidebarLink to='temperature' onClick={toggle}>
+                <SidebarLink to='/Details' onClick={toggle}>
                     Details
                 </SidebarLink>
-                <SidebarLink to='about' onClick={toggle}>
+                <SidebarLink to='/about' onClick={toggle}>
                     About
                 </SidebarLink>
             </SidebarWrapper>

@@ -1,5 +1,6 @@
 import React from 'react';
-import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP, HeroImg } from './HeroElements';
+import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP, HeroImg, HeroCard, HeroRow, HeroRowTitle } from './HeroElements';
+import Button from "react-bootstrap/Button";
 
 const HeroSection = () => {
     return (
@@ -11,9 +12,21 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Welcome User</HeroH1>
-                <HeroP>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis enim a lobortis auctor. Duis feugiat, dui a bibendum consectetur, quam ex luctus nisl, vitae lacinia purus nisl vitae ante. Maecenas vel ullamcorper metus. Sed vel suscipit libero, sed ullamcorper metus.
-                </HeroP>
+
+                <HeroRow>
+                    <HeroCard>
+                        <HeroP>
+                            Learn more about your water usage
+                        </HeroP>
+                        <Button><a href="https://info.oras.com/en/oras-hydractiva-digital" target="_blank" className="buttonLink">Graphs</a></Button>
+                    </HeroCard>
+                    <HeroCard>
+                        <HeroP>
+                            Save water to help your flower grow
+                        </HeroP>
+                        <Button>Flower</Button>
+                    </HeroCard>
+                </HeroRow>
                 
             </HeroContent>
         </HeroContainer>

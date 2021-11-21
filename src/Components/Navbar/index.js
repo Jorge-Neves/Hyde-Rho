@@ -8,12 +8,12 @@ const Navbar = ({toggle}) => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>
-                        Logo
+                        Hyde/Rhô
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
-                    <NavMenu>
+                    {/* <NavMenu>
                         <NavItem>
                             <NavLinks to='hero' smooth={true} duration={500}>Landing</NavLinks>
                         </NavItem>
@@ -26,7 +26,7 @@ const Navbar = ({toggle}) => {
                         <NavItem>
                             <NavLinks to='shower'>Shower Time</NavLinks>
                         </NavItem>
-                    </NavMenu>
+                    </NavMenu> */}
                 </NavbarContainer>
             </Nav>
         </>

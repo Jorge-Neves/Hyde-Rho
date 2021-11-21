@@ -42,7 +42,14 @@ export const NavLogo = styled(LinkR)`
 `;
 
 export const MobileIcon = styled.div`
-    display: none;
+    display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #fff;
 
     @media screen and (max-width: 768px) {
         display: block;

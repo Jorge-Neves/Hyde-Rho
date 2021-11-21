@@ -7,8 +7,11 @@ import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
+import About from '../Components/About';
+import Team from "../Components/TeamSection"
+import Challenge from '../Components/ChallengeSection';
 
-const Home = () => {
+const Aboutus = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
 
     const [isOpen, setIsOpen] = useState(false);
@@ -31,27 +34,27 @@ const Home = () => {
         };
       }, [handleWindowResize]);
 
-    return windowSize <= 1000 ? (
+    return windowSize <= 940 ? (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
 
             <Carousel>
-                    <HeroSection id='hero'/>
-                    <Temperature id='temperature'/>
-                    <Eco id="eco" />
+                    <About id="about"/>
+                    <Team id='team'/>
+                    <Challenge id="challenge" />
             </Carousel>
         </>
     ) : (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <HeroSection />
-            <Temperature />
-            <Eco />
+            <About id="about"/>
+            <Team id='team'/>
+            <Challenge id="challenge" />
         </>
     )
 }
 
-export default Home;
+export default Aboutus;
 ;
