@@ -14,7 +14,7 @@ import Fade from 'react-reveal/Fade';
 
 
 
-function Details(){
+function DetailsFix(){
 
         /* useStates for conditional rendering with the buttons at the very top */
         /* This will allow each button to render its respective variable */
@@ -78,4 +78,4 @@ function Details(){
         )
 }
 
-export default Details;
+export default DetailsFix;
