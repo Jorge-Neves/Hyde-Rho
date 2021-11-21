@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
-import DetailsComponent from '../Components/Details/index'
+import DetailsComponent from '../Components/Details/indexDetails'
 import ConsumptionWeek from '../Components/Details/ConsumptionWeek';
 import ConsumptionThree from '../Components/Details/ConsumptionThreeDays';
 import ConsumptionMonth from '../Components/Details/ConsumptionMonth';
