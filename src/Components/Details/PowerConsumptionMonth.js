@@ -12,6 +12,7 @@ import{
     Line
 } from 'recharts';
 
+import { GraphContainer } from "./DetailsElements";
 
 
 
@@ -35,9 +36,10 @@ function PowerConsumptionMonth(){
         
     return(
         <>
+        <GraphContainer>
             <h1>Past Month Power Consumption Graph</h1>
 
-            <ResponsiveContainer width="100%" height={400}>
+            <ResponsiveContainer width={500} height="50%">
                 <LineChart data={data}>
                     <XAxis dataKey="date" />
                     <YAxis dataKey="powerc" />
@@ -47,7 +49,7 @@ function PowerConsumptionMonth(){
                 </LineChart>
             </ResponsiveContainer>
 
-            
+            </GraphContainer>
         </>
         
         )

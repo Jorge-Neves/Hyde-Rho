@@ -11,6 +11,8 @@ import{
     Line
 } from 'recharts';
 
+import { GraphContainer } from "./DetailsElements";
+
 
 
 
@@ -38,9 +40,11 @@ function ConsumptionMonth(){
         
     return(
         <>
+            <GraphContainer>
+
             <h1> Past Month water Consumption Graphs</h1>
 
-            <ResponsiveContainer width="100%" height={400}>
+            <ResponsiveContainer width={500} height="50%">
                 <LineChart data={data}>
                     <XAxis dataKey="date" />
                     <YAxis dataKey="powerc" />
@@ -49,7 +53,7 @@ function ConsumptionMonth(){
                     <CartesianGrid/>
                 </LineChart>
             </ResponsiveContainer>
-
+            </GraphContainer>
             
         </>
         

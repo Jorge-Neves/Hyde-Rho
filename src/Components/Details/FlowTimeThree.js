@@ -11,10 +11,11 @@ import{
     Line
 } from 'recharts';
 
+import { GraphContainer } from "./DetailsElements";
 
 
 
-function FlowTimeMonth(){
+function FlowTimeThree(){
 
    const data = [{
         date: '2020-12-29',
@@ -34,9 +35,10 @@ function FlowTimeMonth(){
         
     return(
         <>
-            <h1>Past 3 days Flow Time Graph</h1>
+        <GraphContainer>
+            <h1>Past 3 Days Flow Time Graph</h1>
 
-            <ResponsiveContainer width="100%" height={400}>
+            <ResponsiveContainer width={500} height="50%">
                 <LineChart data={data}>
                     <XAxis dataKey="date" />
                     <YAxis dataKey="powerc" />
@@ -46,10 +48,10 @@ function FlowTimeMonth(){
                 </LineChart>
             </ResponsiveContainer>
 
-            
+            </GraphContainer>
         </>
         
         )
 }
 
-export default FlowTimeMonth;
+export default FlowTimeThree;

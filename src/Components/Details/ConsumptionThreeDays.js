@@ -10,7 +10,7 @@ import{
     Legend,
     Line
 } from 'recharts';
-
+import { GraphContainer } from "./DetailsElements";
 
 
 
@@ -39,19 +39,21 @@ function ConsumptionThree(){
         
     return(
         <>
+            
+            <GraphContainer>
+
             <h1>Past 3 Days water Consumption Graphs</h1>
 
-            <ResponsiveContainer width="100%" height={400}>
-                <LineChart data={data}>
-                    <XAxis dataKey="date" />
-                    <YAxis dataKey="powerc" />
-                    <Line type="monotone" dataKey="powerc" stroke="#8884d8" activeDot={{ r: 8 }} />
-                    <Tooltip />
-                    <CartesianGrid/>
-                </LineChart>
-            </ResponsiveContainer>
-
-            
+            <ResponsiveContainer width={500} height="50%">
+    <LineChart data={data}>
+        <XAxis dataKey="date" />
+        <YAxis dataKey="powerc" />
+        <Line type="monotone" dataKey="powerc" stroke="#8884d8" activeDot={{ r: 8 }} />
+        <Tooltip />
+        <CartesianGrid/>
+    </LineChart>
+</ResponsiveContainer>
+</GraphContainer>
         </>
         
         )

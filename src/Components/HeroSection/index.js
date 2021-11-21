@@ -1,6 +1,7 @@
 import React from 'react';
 import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP, HeroImg, HeroCard, HeroRow, HeroRowTitle } from './HeroElements';
 import Button from "react-bootstrap/Button";
+import Fade from 'react-reveal/Fade';
 
 const HeroSection = () => {
     return (
@@ -11,8 +12,10 @@ const HeroSection = () => {
             <HeroBg>
             </HeroBg>
             <HeroContent>
+            <Fade Bottom>
                 <HeroH1>Welcome User</HeroH1>
-
+                </Fade>
+                <Fade Bottom>
                 <HeroRow>
                     <HeroCard>
                         <HeroP>
@@ -27,7 +30,7 @@ const HeroSection = () => {
                         <Button>Flower</Button>
                     </HeroCard>
                 </HeroRow>
-                
+                </Fade>
             </HeroContent>
         </HeroContainer>
     )

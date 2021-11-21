@@ -2,6 +2,8 @@ import React from 'react';
 import { TemperatureContainer, TemperatureImage, TemperatureH1, TemperatureContent, TemperatureContentText } from './TemperatureElements';
 import { HeroP, HeroCard, HeroRowTitle } from '../HeroSection/HeroElements';
 import Button from "react-bootstrap/Button";
+import Fade from 'react-reveal/Fade';
+
 
 const Temperature = () => {
     return (
@@ -9,6 +11,7 @@ const Temperature = () => {
             <TemperatureImage>
                 <img src="/TempWaterMark.svg" alt="A shower setup" className="TemperatureImg" />
             </TemperatureImage>
+            <Fade Bottom>
             <TemperatureContent>
                  <TemperatureContentText>
                         <TemperatureH1>Your perfect shower temperature is:</TemperatureH1>
@@ -23,6 +26,7 @@ const Temperature = () => {
                     </HeroCard>
                 </HeroRowTitle>
             </TemperatureContent>
+            </Fade>
 
             
         </TemperatureContainer>

@@ -10,7 +10,7 @@ import{
     Legend,
     Line
 } from 'recharts';
-
+import { GraphContainer } from "./DetailsElements";
 
 
 
@@ -38,18 +38,19 @@ function ConsumptionWeek(){
         
     return(
         <>
-            <h1>Past Week water Consumption Graphs</h1>
+           <GraphContainer>
 
-            <ResponsiveContainer width="100%" height={400}>
-                <LineChart data={data}>
-                    <XAxis dataKey="date" />
-                    <YAxis dataKey="powerc" />
-                    <Line type="monotone" dataKey="powerc" stroke="#8884d8" activeDot={{ r: 8 }} />
-                    <Tooltip />
-                    <CartesianGrid/>
-                </LineChart>
-            </ResponsiveContainer>
-
+            <h1>Past 3 Week water Consumption Graphs</h1>
+            <ResponsiveContainer width={500} height="50%">
+    <LineChart data={data}>
+        <XAxis dataKey="date" />
+        <YAxis dataKey="powerc" />
+        <Line type="monotone" dataKey="powerc" stroke="#8884d8" activeDot={{ r: 8 }} />
+        <Tooltip />
+        <CartesianGrid/>
+    </LineChart>
+</ResponsiveContainer>
+</GraphContainer>
             
         </>
         

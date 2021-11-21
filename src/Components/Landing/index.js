@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
-
+import Fade from 'react-reveal/Fade';
 
 const LandingPageContainer = styled.section`
 	background-color: #C2EDEC;
@@ -52,21 +52,24 @@ function Landing(){
         
     return(
         <>
+            
            <LandingPageContainer>
            { buttonPressed ?
                     <img src={setImage} className="LandingImage" src={image} />
                     
 
             : 
-            
+            <Fade bottom>
             <div>
               
               <img src="/Landing2.png" onClick={toggleButton} className="PrePress" /> 
             </div>
+            </Fade>
             }
                 
                 
            </LandingPageContainer>
+           
         
         </>
         

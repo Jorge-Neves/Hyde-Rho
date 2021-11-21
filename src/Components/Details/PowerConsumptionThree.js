@@ -11,7 +11,7 @@ import{
     Line
 } from 'recharts';
 
-
+import { GraphContainer } from "./DetailsElements";
 
 
 function PowerConsumptionWeek(){
@@ -34,9 +34,10 @@ function PowerConsumptionWeek(){
         
     return(
         <>
-            <h1> Past 3 Day Power Consumption Graph</h1>
+        <GraphContainer>
+            <h1> Past Week Power Consumption Graph</h1>
 
-            <ResponsiveContainer width="100%" height={400}>
+            <ResponsiveContainer width={500} height="50%">
                 <LineChart data={data}>
                     <XAxis dataKey="date" />
                     <YAxis dataKey="powerc" />
@@ -45,7 +46,7 @@ function PowerConsumptionWeek(){
                     <CartesianGrid/>
                 </LineChart>
             </ResponsiveContainer>
-
+            </GraphContainer>
             
         </>
         

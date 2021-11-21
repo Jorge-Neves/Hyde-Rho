@@ -9,8 +9,8 @@ import PowerConsumptionWeek from "./PowerConsumptionThree";
 import PowerConsumptionMonth from "./PowerConsumptionMonth";
 import ConsumptionWeek from "./ConsumptionWeek";
 import ConsumptionMonth from "./ConsumptionMonth";
-import { DetailsLandingContainer, GraphContainer } from "./DetailsElements";
-
+import { DetailsLandingContainer, DetailsImg, DetailsH1 } from "./DetailsElements";
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -56,63 +56,23 @@ function Details(){
     return(
         <>
             <DetailsLandingContainer>
-            <h1>In-depth Consumption details</h1>
+                    <Fade Bottom>
+                        <DetailsH1>
+                            <h1>Your Data</h1>
+                        </DetailsH1>
+                    </Fade>
+                <DetailsImg>
+                    <img src="/DetailsBG.svg" alt="A cartoon vector man on a production line" className="DetailsImage" />
+                </DetailsImg>
 
-            {/* These functions show different variables depending on which is clicked */}
+                {/* These functions show different variables depending on which is clicked */}
 
-            <button onClick={togglePower}>Power Consumption</button>
-            <button onClick={toggleFlowTime}>Flow Time</button>
-            <button onClick={toggleConsumption}>Water Consumption</button>
+                {/* <button onClick={togglePower}>Power Consumption</button>
+                <button onClick={toggleFlowTime}>Flow Time</button>
+                <button onClick={toggleConsumption}>Water Consumption</button> */}
 
             </DetailsLandingContainer>
 
-            <GraphContainer>
-            {/* Power Consumption graphs conditional rendering */}  
-            
-            { powerConsumption ?
-                    <div>
-                        <h1>Power Consumption</h1>
-                        <PowerConsumptionThree />
-                        <PowerConsumptionWeek />
-                        <PowerConsumptionMonth />
-                    </div>
-                    
-
-            : "" }
-
-
-             {/* Flow Time graphs conditional rendering */}  
-
-            { flowTime  ?
-                    <div>
-                        <h1>Flow Time </h1>
-                        <FlowTimeThree />
-                        <FlowTimeWeek />
-                        <FlowTimeMonth />
-                    </div>
-
-
-            : "" }
-
-   
-
-             {/* Water Consumption graphs conditional rendering */}  
-
-            { consumption ?
-                    <div>
-                        <h1>Water Consumption</h1>
-                        <ConsumptionThree />
-                        <ConsumptionWeek />
-                        <ConsumptionMonth />
-                        
-                    </div>
-
-
-            : "" }
-
-            </GraphContainer>
-
-            
         </>
         
         )

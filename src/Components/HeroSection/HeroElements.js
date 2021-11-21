@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding-left: 100px;
     height: 800px;
     position: relative;
     z-index: 1;
@@ -30,6 +30,9 @@ export const HeroContainer = styled.div`
     }
 
     @media screen and (max-width: 768px) {
+
+        padding: 0 30px;
+
         button {
     
         font-size: 3.33vw;

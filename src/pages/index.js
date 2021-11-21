@@ -7,6 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);

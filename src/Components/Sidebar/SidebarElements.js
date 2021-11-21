@@ -34,6 +34,20 @@ export const Icon = styled.div`
 
 export const SidebarWrapper = styled.div`
     color: #fff;
+
+    .NavLinks{
+        text-decoration: none !important;
+        list-style: none;
+        transition:1s;
+        color: #fff;
+    }
+
+    .NavLinks:hover {
+        text-decoration: none !important;
+        list-style: none;
+        color: #313246;
+        
+    }
 `;
 
 export const SidebarMenu = styled.ul`

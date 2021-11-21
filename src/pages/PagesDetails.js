@@ -8,6 +8,15 @@ import styled from 'styled-components';
 import Temperature from '../Components/TemperatureSection';
 import Eco from '../Components/EcoSection';
 import DetailsComponent from '../Components/Details/index'
+import ConsumptionWeek from '../Components/Details/ConsumptionWeek';
+import ConsumptionThree from '../Components/Details/ConsumptionThreeDays';
+import ConsumptionMonth from '../Components/Details/ConsumptionMonth';
+import FlowTimeWeek from '../Components/Details/FlowTimeWeek';
+import FlowTimeMonth from '../Components/Details/FlowTimeMonth';
+import FlowTimeThree from '../Components/Details/FlowTimeThree';
+import PowerConsumptionWeek from '../Components/Details/PowerConsumptionThree';
+import PowerConsumptionMonth from '../Components/Details/PowerConsumptionMonth';
+import PowerConsumptionThree from '../Components/Details/PowerConsumptionWeek';
 
 const Details = () => {
     const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -39,17 +48,32 @@ const Details = () => {
 
             <Carousel>
                     <DetailsComponent id='details'/>
-                    <Temperature id='temperature'/>
-                    <Eco id="eco" />
+                    <ConsumptionThree />
+                    <ConsumptionWeek />
+                    <ConsumptionMonth />
+                    <FlowTimeThree />
+                    <FlowTimeWeek />
+                    <FlowTimeMonth />
+                    <PowerConsumptionThree />
+                    <PowerConsumptionWeek />
+                    <PowerConsumptionMonth />
+                    
             </Carousel>
         </>
     ) : (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <DetailsComponent />
-            <Temperature />
-            <Eco />
+            <DetailsComponent id='details'/>
+                    <ConsumptionThree />
+                    <ConsumptionWeek />
+                    <ConsumptionMonth />
+                    <FlowTimeThree />
+                    <FlowTimeWeek />
+                    <FlowTimeMonth />
+                    <PowerConsumptionThree />
+                    <PowerConsumptionWeek />
+                    <PowerConsumptionMonth />
         </>
     )
 }
