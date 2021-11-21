@@ -10,7 +10,6 @@ import About from "./pages/PagesAboutUs"
 import Sidebar from './Components/Sidebar';
 import Home from './pages';
 
-import Sources from './Components/Sources';
 
 function App() {
   return (
