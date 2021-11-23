@@ -17,8 +17,6 @@ https://www.youtube.com/watch?v=SmbvKXIV-iw
 # Live Demo
 A live version of this repository can be found in the following link:
 
-<br>
-
 https://hyde-rho.netlify.app/
 
 
