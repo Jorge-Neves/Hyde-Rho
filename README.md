@@ -8,6 +8,11 @@ Team Hyde/Rhô 's entry for Juntion's 2021 Oras Group challenge
 # Description
 Entry for Junction 2021 Ora's Group challenge
 
+https://www.junction2021.com/challenges/oras
+
+# Pitch
+https://www.youtube.com/watch?v=SmbvKXIV-iw
+
 
 # Live Demo
 A live version of this repository can be found in the following link:
@@ -20,7 +25,7 @@ https://hyde-rho.netlify.app/
 
 # Technologies
 
-React | React-Router-Dom-V6 | JavaScript | HTML | CSS | SASS | Netlify | Styled Components | Bootstrap | Python ! Panda Modules
+React | React-Router-Dom-V6 | JavaScript | HTML | CSS | SASS | Netlify | Styled Components | Bootstrap | Python | Panda Modules
 
 
 # Contacts
