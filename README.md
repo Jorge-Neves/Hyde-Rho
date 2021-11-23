@@ -1,10 +1,8 @@
 # Hyde-Rhô
 Team Hyde/Rhô 's entry for Juntion's 2021 Oras Group challenge
 
-# Exeter's Entrepeneurs
-
 <p align="center">
-  <img src="HydroDoc2.GIF" alt="A gif of the website's landing page" />
+  <img src="HydroDoc2.gif" alt="A gif of the website's landing page" />
 </p>
   
 # Description
