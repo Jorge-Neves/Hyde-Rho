@@ -8,16 +8,19 @@ Team Hyde/Rhô 's entry for Juntion's 2021 Oras Group challenge
 # Description
 Entry for Junction 2021 Ora's Group challenge
 
-https://www.junction2021.com/challenges/oras
+<a href="https://www.junction2021.com/challenges/oras">Junction 2021 Ora's Group Challenge</a>
 
 # Pitch
-https://www.youtube.com/watch?v=SmbvKXIV-iw
+
+<a href="https://www.youtube.com/watch?v=SmbvKXIV-iw">Video Pitch</a>
+
 
 
 # Live Demo
 A live version of this repository can be found in the following link:
 
-https://hyde-rho.netlify.app/
+<a href="https://hyde-rho.netlify.app/">Hyde/Rhô</a>
+
 
 
 
