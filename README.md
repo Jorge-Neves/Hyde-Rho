@@ -28,6 +28,8 @@ A live version of this repository can be found in the following link:
 
 React | React-Router-Dom-V6 | JavaScript | HTML | CSS | SASS | Netlify | Styled Components | Bootstrap | Python | Panda Modules
 
+<p align="right">[<a href="#top">back to top</a>]</p>
+
 
 # Contacts
 
@@ -58,6 +60,8 @@ github: https://github.com/Jorge-Neves
 linkedIn: https://www.linkedin.com/in/said-anis-khouider-045530226/
 <br>
 github: https://github.com/Rainymaw
+
+<p align="right">[<a href="#top">back to top</a>]</p>
 
 <br>
 <br>
